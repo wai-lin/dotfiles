@@ -59,10 +59,10 @@ then
 fi
 
 # install fd for telescope neovim plugin that show file browser
-if [ ! -f /opt/homebrew/bin/fd ]
-then
-	brew install fd
-fi
+# if [ ! -f /opt/homebrew/bin/fd ]
+# then
+# 	brew install fd
+# fi
 
 rm -rf $HOME/.config/nvim
 ln -s $DOTFILES/nvim $HOME/.config/nvim
