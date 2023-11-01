@@ -33,6 +33,9 @@ vim.keymap.set("n", "<leader>hk", ":nohlsearch<CR>")
 -- Open the current file in the default program ( Mac: open, Linux: xdg-open ).
 vim.keymap.set("n", "<leader>x", ":!open %<CR><CR>")
 
+-- Close current buffer
+vim.keymap.set("n", "<leader>q", ":bdelete<CR>")
+
 -- Move lines up and down
 vim.keymap.set("i", "<A-j>", "<ESC>:move .+1<CR>==gi")
 vim.keymap.set("i", "<A-k>", "<ESC>:move .-2<CR>==gi")

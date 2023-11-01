@@ -72,3 +72,7 @@ vim.opt.completeopt = "menuone,noselect"
 -- Decrease update time
 vim.opt.updatetime = 250
 vim.opt.timeoutlen = 300
+
+-- Reserve space for signcolumn
+-- this prevent UI from jumping when signcolumn appear and disappear
+vim.opt.signcolumn = "yes:1"
