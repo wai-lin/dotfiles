@@ -10,8 +10,16 @@ return {
     end,
   },
 
-	-- Unix commands for vim
-	{ "tpope/vim-eunuch", opts = {} },
+  -- Unix commands for vim
+  { "tpope/vim-eunuch", opts = {} },
+
+  -- lsp spinner
+  {
+    "j-hui/fidget.nvim",
+    tag = "legacy",
+    event = "LspAttach",
+    opts = {},
+  },
 
   {
     "nvim-treesitter/nvim-treesitter",
