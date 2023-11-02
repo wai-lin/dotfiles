@@ -5,6 +5,8 @@ local M = {}
 M.general = {
   i = {
     ["jk"] = { "<ESC>", "Lazy escape mode" },
+    [";;"] = { "<ESC>A;", "Lazy semicolon" },
+    [",,"] = { "<ESC>A,", "Lazy comman" },
   },
 
   n = {
