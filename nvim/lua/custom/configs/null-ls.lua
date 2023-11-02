@@ -6,6 +6,7 @@ local formatting = null_ls.builtins.formatting
 local sources = {
   formatting.stylua,
   formatting.deno_fmt,
+  formatting.pint,
 
   -- lint.shellcheck,
 }
