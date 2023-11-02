@@ -33,4 +33,5 @@ rm -rf $HOME/.config/nvim
 # PHP
 #################### ~~~ ####################
 brew uninstall php
+composer global remove laravel/installer
 sudo rm -rf /usr/local/bin/composer

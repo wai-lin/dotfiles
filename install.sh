@@ -82,3 +82,6 @@ php -r "if (hash_file('sha384', 'composer-setup.php') === 'e21205b207c3ff0319065
 php composer-setup.php
 php -r "unlink('composer-setup.php');"
 sudo mv $DOTFILES/composer.phar /usr/local/bin/composer
+
+# install laravel
+composer global require laravel/installer
