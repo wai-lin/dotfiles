@@ -1,0 +1,104 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"Comment block": {
+		"scope": "javascript,typescript, javascriptreact, typescriptreact",
+		"prefix": "cb",
+		"body": [
+			"// ////////////////////////////////////////",
+			"// ${1:BlockName}",
+			"// ////////////////////////////////////////",
+			"$2"
+		],
+		"description": "Create comment block"
+	},
+	// ////////////////////////////////////////
+	// ////////////////////////////////////////
+	"Region comment block": {
+		"scope": "javascript,typescript, javascriptreact, typescriptreact",
+		"prefix": "rcb",
+		"body": [
+			"// ////////////////////////////////////////",
+			"// #region ${1:BlockName} {{{",
+			"// ////////////////////////////////////////",
+			"$2",
+			"// ////////////////////////////////////////",
+			"// #endregion ${1:BlockName} }}}",
+			"// ////////////////////////////////////////"
+		],
+		"description": "Create region comment block"
+	},
+	// ////////////////////////////////////////
+	// ////////////////////////////////////////
+	"Comment line": {
+		"scope": "javascript,typescript, javascriptreact, typescriptreact",
+		"prefix": "cl",
+		"body": ["// ////////////////////////////////////////", ""],
+		"description": "Create line break"
+	},
+	// ////////////////////////////////////////
+	// ////////////////////////////////////////
+	"Create react component": {
+		"scope": "javascript,typescript, javascriptreact, typescriptreact",
+		"prefix": "rc",
+		"body": ["export function ${1:ComponentName}() {", "	return ($2);", "}", ""],
+		"description": "Create react component"
+	},
+	// ////////////////////////////////////////
+	// ////////////////////////////////////////
+	"Create next page": {
+		"scope": "javascript,typescript, javascriptreact, typescriptreact",
+		"prefix": "npg",
+		"body": [
+			"export default function ${1:Example}Page() {",
+			"	return ($2);",
+			"};",
+			""
+		],
+		"description": "Create next page"
+	},
+	// ////////////////////////////////////////
+	// ////////////////////////////////////////
+	"Create storybook component": {
+		"scope": "javascript,typescript, javascriptreact, typescriptreact",
+		"prefix": "sbc",
+		"body": [
+			"import { Meta, StoryObj } from \"@storybook/react\";",
+			"import { ${1:Component} } from \"./${1:Component}\";",
+			"",
+			"// ////////////////////////////////////////",
+			"// Meta Docs",
+			"// ////////////////////////////////////////",
+			"const meta: Meta<typeof ${1:Component}> = {",
+			"	tags: [\"autodocs\"],",
+			"	component: ${1:Component},",
+			"};",
+			"export default meta;",
+			"",
+			"// ////////////////////////////////////////",
+			"// Stories",
+			"// ////////////////////////////////////////",
+			"type Story = StoryObj<typeof ${1:Component}>;",
+			"",
+			"export const Primary: Story = {",
+			"	render: () => <${1:Component}>Hello 👋</${1:Component}>,",
+			"};",
+			""
+		],
+		"description": "Create storybook component"
+	}
+}

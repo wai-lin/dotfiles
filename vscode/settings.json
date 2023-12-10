@@ -1,0 +1,147 @@
+{
+	"window.zoomLevel": 1,
+	// //////////////////////////////
+	// //////////////////////////////
+	"explorer.compactFolders": false,
+	"workbench.sideBar.location": "right",
+	"workbench.colorTheme": "Bearded Theme Monokai Reversed",
+	"workbench.iconTheme": "bearded-icons",
+	// //////////////////////////////
+	// //////////////////////////////
+	"editor.tabSize": 3,
+	"editor.detectIndentation": true,
+	"editor.fontSize": 14,
+	"editor.lineHeight": 22,
+	"editor.insertSpaces": false,
+	"editor.minimap.enabled": false,
+	// "editor.formatOnSave": true,
+	"editor.foldingHighlight": false,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.stickyScroll.enabled": true,
+	"editor.lineNumbers": "relative",
+	"editor.fontLigatures": true,
+	"editor.fontFamily": "'Zed Mono', 'Symbols Nerd Font Mono', Monaco, 'Courier New', monospace",
+	// //////////////////////////////
+	// //////////////////////////////
+	"editor.linkedEditing": true,
+	"html.autoClosingTags": true,
+	"javascript.autoClosingTags": true,
+	"typescript.autoClosingTags": true,
+	// //////////////////////////////
+	// //////////////////////////////
+	"javascript.format.semicolons": "insert",
+	"javascript.preferences.quoteStyle": "double",
+	// //////////////////////////////
+	// //////////////////////////////
+	"go.formatTool": "goimports",
+	// //////////////////////////////
+	// //////////////////////////////
+	"terminal.integrated.fontSize": 14,
+	// //////////////////////////////
+	// //////////////////////////////
+	"vscode_custom_css.imports": [
+		"file:///Users/wailinaung/Documents/github/dotfiles/vscode/custom_style.css"
+	],
+	// //////////////////////////////
+	// //////////////////////////////
+	"[typescript]": {
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": true
+		},
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescriptreact]": {
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": true
+		},
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": true
+		},
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascriptreact]": {
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": true
+		}
+	},
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	// //////////////////////////////
+	// //////////////////////////////
+	"extensions.experimental.affinity": {
+		"vscodevim.vim": 1
+	},
+	"vim.leader": "<space>",
+	"vim.easymotion": true,
+	"vim.incsearch": true,
+	"vim.useSystemClipboard": true,
+	"vim.useCtrlKeys": true,
+	"vim.hlsearch": true,
+	"vim.insertModeKeyBindings": [
+		{
+			"before": ["j", "k"],
+			"after": ["<Esc>"]
+		}
+	],
+	"vim.normalModeKeyBindings": [
+		{
+			"before": ["<leader>", "f", "m"],
+			"commands": ["editor.action.formatDocument"]
+		},
+		{
+			"before": [";"],
+			"after": [":"]
+		},
+		{
+			"before": ["<leader>", "r", "a"],
+			"commands": ["editor.action.rename"]
+		}
+	],
+	"vim.visualModeKeyBindings": [
+		{
+			"before": [">"],
+			"commands": ["editor.action.indentLines"]
+		},
+		{
+			"before": ["<"],
+			"commands": ["editor.action.outdentLines"]
+		},
+		{
+			"before": ["p"],
+			"after": ["p", "g", "v", "y"]
+		}
+	],
+	"cSpell.userWords": ["endregion"],
+	"workbench.activityBar.location": "hidden",
+	"prettier.quoteProps": "consistent",
+	"prettier.semi": false,
+	"prettier.useTabs": true,
+	"git.confirmSync": false,
+	"git.openRepositoryInParentFolders": "always",
+	"[vue]": {
+		"editor.defaultFormatter": "Vue.volar"
+	},
+	"editor.formatOnPaste": false,
+	"editor.formatOnSave": false,
+	"editor.formatOnType": false,
+	"[markdown]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"lldb.library": "/Library/Developer/CommandLineTools/Library/PrivateFrameworks/LLDB.framework/Versions/A/LLDB",
+	"lldb.launch.expressions": "native",
+	"[javascript][javascriptreact][typescript][typescriptreact]": {
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": "explicit"
+		}
+	}
+}

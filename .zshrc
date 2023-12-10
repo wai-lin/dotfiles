@@ -100,9 +100,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim="nvim"
-alias gdoc="cd ~/Documents"
 alias cls="clear"
 
+alias gtd="cd ~/Documents"
 alias gtr="cd $(git rev-parse --show-toplevel)"
 
 # pnpm

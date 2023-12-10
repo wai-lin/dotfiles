@@ -53,10 +53,10 @@ then
 fi
 
 # install ripgrep for telescope neovim plugin to run grep
-if [ ! -f /opt/homebrew/bin/rg ]
-then
-	brew install ripgrep
-fi
+# if [ ! -f /opt/homebrew/bin/rg ]
+# then
+# 	brew install ripgrep
+# fi
 
 # install fd for telescope neovim plugin that show file browser
 # if [ ! -f /opt/homebrew/bin/fd ]
