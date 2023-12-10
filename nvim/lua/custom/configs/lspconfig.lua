@@ -7,8 +7,8 @@ local servers = {
   "html",
   "cssls",
   "denols",
-  "jsonls",
   "intelephense",
+  "phpactor",
   "tailwindcss",
 }
 
@@ -18,6 +18,28 @@ for _, lsp in ipairs(servers) do
     capabilities = capabilities,
   }
 end
+
+-- Add custom filetypes for HTML
+lspconfig.emmet_language_server.setup {
+  on_attach = on_attach,
+  capabilities = capabilities,
+  filetypes = {
+    "astro",
+    "css",
+    "eruby",
+    "html",
+    "htmldjango",
+    "javascriptreact",
+    "less",
+    "pug",
+    "php",
+    "sass",
+    "scss",
+    "svelte",
+    "typescriptreact",
+    "vue",
+  },
+}
 
 -- Load schema defs for JSON schemas
 lspconfig.jsonls.setup {

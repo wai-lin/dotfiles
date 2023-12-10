@@ -68,6 +68,11 @@ rm -rf $HOME/.config/nvim
 ln -s $DOTFILES/nvim $HOME/.config/nvim
 
 #################### ~~~ ####################
+# Deno
+#################### ~~~ ####################
+curl -fsSL https://deno.land/x/install/install.sh | sh
+
+#################### ~~~ ####################
 # PHP
 #################### ~~~ ####################
 # install php

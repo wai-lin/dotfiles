@@ -35,12 +35,15 @@ return {
     },
     opts = {
       ensure_installed = {
-        "shellcheck",
         "lua-language-server",
         "html-lsp",
         "deno",
         "stylua",
+        "phpactor",
         "intelephense",
+        "emmet-language-server",
+        "pint",
+        "blade-formatter",
       },
     },
   },

@@ -103,6 +103,7 @@ alias vim="nvim"
 alias gdoc="cd ~/Documents"
 alias cls="clear"
 
+alias gtr="cd $(git rev-parse --show-toplevel)"
 
 # pnpm
 export PNPM_HOME="/Users/wailinaung/Library/pnpm"
@@ -114,3 +115,7 @@ esac
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# tabtab source for packages
+# uninstall by removing these lines
+[[ -f ~/.config/tabtab/zsh/__tabtab.zsh ]] && . ~/.config/tabtab/zsh/__tabtab.zsh || true
