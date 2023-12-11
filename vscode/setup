@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 
+# enable repeated key press in macOS
+
 defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false              # For VS Code
 defaults delete -g ApplePressAndHoldEnabled 

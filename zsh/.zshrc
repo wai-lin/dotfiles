@@ -99,12 +99,19 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+go_to_document() {
+	cd ~/Documents/$1
+}
+go_to_git_root() {
+	cd $(git rev-parse --show-toplevel)
+}
+
 alias npm="pnpm"
 alias vim="nvim"
 alias cls="clear"
 
-alias gtd="cd ~/Documents"
-alias gtr="cd $(git rev-parse --show-toplevel)"
+alias gtd=go_to_document;
+alias gtr=go_to_git_root;
 
 # pnpm
 export PNPM_HOME="/Users/wai-lin/Library/pnpm"

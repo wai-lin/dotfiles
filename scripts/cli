@@ -5,4 +5,7 @@ gh \
 lua \
 luarocks \
 elixir \
+go \
 neovim \
+tmux \
+bat
