@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+brew install --cask \
+visual-studio-code \
+herd \
+dbngin \
+alacritty \
+phpstorm \
+docker \
+postman \
+firefox \
+google-chrome \
+arc \
+telegram \
+spotify

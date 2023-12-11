@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+brew install \
+gh \
+lua \
+luarocks \
+elixir \
+neovim \

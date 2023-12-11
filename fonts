@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+brew tap homebrew/cask-fonts
+
+brew install --cask \
+font-jetbrains-mono-nerd-font \
+font-space-mono-nerd-font
