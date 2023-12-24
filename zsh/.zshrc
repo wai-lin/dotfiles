@@ -109,6 +109,7 @@ go_to_git_root() {
 alias npm="pnpm"
 alias vim="nvim"
 alias cls="clear"
+alias pa="php artisan"
 
 alias gtd=go_to_document;
 alias gtr=go_to_git_root;
