@@ -107,6 +107,7 @@ go_to_git_root() {
 }
 
 alias npm="pnpm"
+alias npx="pnpm dlx"
 alias vim="nvim"
 alias cls="clear"
 alias pa="php artisan"
