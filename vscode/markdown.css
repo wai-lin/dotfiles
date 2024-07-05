@@ -1,3 +1,4 @@
-html {
-	font-style: "ZedMono Nerd Font", Menlo;
+html,
+body {
+	font-family: "ZedMono Nerd Font", Menlo;
 }
