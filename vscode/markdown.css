@@ -1,4 +1,4 @@
 html *,
 body * {
-	font-family: var("ZedMono Nerd Font", "Menlo", --markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", system-ui, "Ubuntu", "Droid Sans", sans-serif) !important;
+	font-family: "ZedMono Nerd Font", "Menlo", var(--markdown-font-family), -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", system-ui, "Ubuntu", "Droid Sans", sans-serif !important;
 }
