@@ -1,0 +1,63 @@
+import = [
+  "~/.config/alacritty//catppuccin-mocha.toml"
+]
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[cursor.style]
+blinking = "On"
+shape = "Block"
+
+[font]
+size = 16
+
+[font.bold]
+family = "ZedMono Nerd Font"
+
+[font.bold_italic]
+family = "ZedMono Nerd Font"
+
+[font.glyph_offset]
+x = 0
+y = 3
+
+[font.italic]
+family = "ZedMono Nerd Font"
+
+[font.normal]
+family = "ZedMono Nerd Font"
+
+[font.offset]
+x = 0
+y = 4
+
+[[hints.enabled]]
+command = "xdg-open"
+hyperlinks = true
+post_processing = true
+regex = "(ipfs:|ipns:|magnet:|mailto:|gemini:|gopher:|https:|http:|news:|file:|git:|ssh:|ftp:)[^\u0000-\u001F\u007F-<>\"\\s{-}\\^⟨⟩`]+"
+
+[mouse]
+hide_when_typing = true
+
+[scrolling]
+history = 10000
+
+[window]
+decorations = "full"
+dynamic_title = false
+option_as_alt = "OnlyLeft"
+startup_mode = "Windowed"
+title = ""
+
+[window.padding]
+x = 5
+y = 5
+
+[keyboard]
+bindings = [
+  { key = "Right", mods = "Alt", chars = "\u001BF" },
+  { key = "Left",  mods = "Alt", chars = "\u001BB" },
+]
+

@@ -26,10 +26,8 @@ return {
 				"cssls", -- requires npm to be installed
 				"html", -- requires npm to be installed
 				"lua_ls",
-				"intelephense", -- requires npm to be installed
 				"jsonls", -- requires npm to be installed
 				"tsserver", -- requires npm to be installed
-				"volar", -- requires npm to be installed
 				"yamlls", -- requires npm to be installed
 			},
 		})
